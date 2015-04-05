@@ -7,6 +7,7 @@
     <meta name="description" content="Full stack developer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/octicons.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
     <script src="/js/modernizr-2.6.1.min.js"></script>
@@ -28,8 +29,8 @@
           <p>Hi, I'm a software engineer passionate about software craftsmanship.</p>
 
           <h2 id="about-me" class="hr"><span class="hr">ABOUT ME</span></h2>
-          <p>I come from <a href="http://en.wikipedia.org/wiki/Sardinia" target="_blank"> Sardinia </a>, I love Pasta, Pizza and I cannot live without my espresso. Like most of Italians probably. Now I live in
-          London, where I can enjoy a thrilling and multicultural city.
+          <p>I come from <a href="http://en.wikipedia.org/wiki/Sardinia" target="_blank">Sardinia</a>, I love pasta, pizza and I cannot live without my espresso. Like most of Italians probably. Now I live in
+          London, where I enjoy a thrilling and multicultural city.
           </p>
           <p>
             I work as full stack engineer at <a href="http://www.qubitproducts.com" target="_blank">Qubit</a>, building awesome web
@@ -38,8 +39,9 @@
             Spring, EJB 3.1 and WebSphere.
           </p>
           <p>
-            In my spare time, I try new technologies which excite me (e.g. WebRTC) or new programming approaches
-            (e.g. reactive programming and functional programming). In addition, I am also learning Salsa with the hope, one day, to truly enjoy dancing.
+            In my spare time, I play with new technologies, such as <a href="http://www.webrtc.org/" target="_blank">WebRTC</a>, <a href="http://flowtype.org/">Flow</a> and <a href="https://www.djangoproject.com/" target="_blank">Django</a>.
+            I like also experiment with new programming approaches such as reactive programming and functional programming.
+            In addition, I am also learning Salsa with the hope, one day, to truly enjoy dancing.
           </p>
           <!--
           <p>
@@ -51,21 +53,20 @@
           -->
 
           <h2 id="open-source-project" class="hr"><span class="hr"> MY PROJECTS </span></h2>
-         <h5> Squiddy </h5>
-          <p> Squiddy is a multi-users video conference tool built with WebRTC. I built this to learn WebRTC so it doesn't use any library.
-              Squiddy performs session renegotiation when something changes. For instance, if a user turns off the video, the video stream
-              is not paused, but it is removed from the session. This leads to a better use of the bandwidth, but causes a lot of compatibilities issues
-              due to the early stage of the WebRTC technologies.
+
+          <a href="https://squiddy.io" class="float-left"><h5>Squiddy</h5></a>
+          <a href="https://github.com/giuse88/squiddy"><span class="float-left octicon octicon-mark-github github-link"></span></a>
+          <p class="clear"> Squiddy is a multi users video conference tool that I build in 2014 to learn <a href="http://www.webrtc.org/" target="_blank">WebRTC</a>.
+           Squiddy is built using vanilia WebRTC and performs session renegotiation when something changes. For instance, if a user turns off the video,
+           the video stream is not paused, but entirelly removed from the session.
           </p>
 
-         <h5> MVH </h5>
-         <p>
+         <h5 class="float-left"> MVH </h5>
+         <a href="https://github.com/giuse88/mvh"><span class="float-left octicon octicon-mark-github github-link"></span></a>
+         <a href="/files/mvh.pdf"><span class="float-left octicon octicon-file-pdf github-link"></span></a>
+         <p class="clear">
           MVH stands for Multi Variant Honeypot. This is my MSc final project. MVH is a multi variant honeypot system which uses a interposition
-          delegating architecture to execute untrusted code. MVH has two variants, one private and one public running in parallel and it is able
-          to detect, prevent and record malicious behaviour of the public variant ( e.g. public web server) be by comparing the system calls
-          made by each variant. The MVH effectiveness has been proved by attacking a <a href="http://www.lighttpd.net/" target="_blank" > Lighthhtp </a>
-          server affected by a buffer overflow bug. MVH was able to prevent and record any malicious action performed by the attacked.
-          Interested? Read more :
+          delegating architecture to execute untrusted code built with <a href="http://en.wikipedia.org/wiki/Seccomp">Seccomp-BPF</a>.
          </p>
           <h2 id="find-me" class="hr"><span class="hr">FIND ME</span></h2>
           <ul class="horizontal">

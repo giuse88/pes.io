@@ -22,8 +22,8 @@ a {
 	height: 300px;
 	background-image: url('../img/header_photo.jpg');
 	background-size: cover;
-	background-color: #598080;
-	background-position-y: -370px;
+  background-repeat: no-repeat;
+  background-position-y: 80%;
 }
 .avatar {
 	background-image: url('../img/me.jpg');
@@ -53,16 +53,24 @@ p {
   text-align: justify;
 }
 
+.github-link {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.float-left {
+  float:left;
+}
+
+.clear {
+  clear:both;
+}
+
 a.name-title {
 	display: inline;
 	text-decoration: none;
 	color: #444;
-}
-a.name-title:hover {
-	text-decoration: none;
-	color: #444;
-	border-bottom: 1px dashed #444;
-	cursor: help;
 }
 .name-subtitle {
 	color: #999;
