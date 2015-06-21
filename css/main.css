@@ -23,7 +23,7 @@ a {
 	background-image: url('../img/header_photo.jpg');
 	background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 80%;
+  background-position-y: 50%;
 }
 .avatar {
 	background-image: url('../img/me.jpg');
@@ -166,4 +166,19 @@ ul.horizontal li a:hover, ul.horizontal li a:active {
 }
 span.dot {
 	margin: 0 5px;
+}
+
+.cv {
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.cv:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.job-title {
+  margin-bottom:0;
 }
